@@ -1,0 +1,16 @@
+{
+  "name": "javascript-hindi",
+  "version": "1.0.0",
+  "main": "datatype.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
