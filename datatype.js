@@ -1,5 +1,5 @@
 // # primitive
-
+"use strict";
 //  7 types : String, number, boolean, null, undefine, bigint, symbol
 
 // refrence (non primitive)
@@ -26,4 +26,4 @@ const arr=[1,2,3,4,5,6];
 
 
 const arr1= [1,2,3,4,[5,6,7],8,[9,10,[11,12]]];
-console.log(arr1.flat(2));
+console.log(arr1.flat(0));

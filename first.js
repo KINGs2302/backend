@@ -1,15 +1,7 @@
-var nameId = "Jainish"
-//console.log("hii",nameId)
+const bcrypt = require("bcryptjs");
 
-// console.log();
+const password = "Jainish@123";
 
-let some;
-
-let s = String(some)
-// console.log(typeof s);
-// console.log(s);
-
-console.log("2"===2);
-
-
-
+bcrypt.hash(password, 10).then((hash) => {
+  console.log("Hashed Password:", hash);
+});
